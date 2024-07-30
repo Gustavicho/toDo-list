@@ -1,0 +1,24 @@
+/* reset/normalizer */
+@import './reset.css';
+
+:root{
+  --clr-ligth: #f0f0f0;
+  --clr-dark:  #333;
+  --color1: #180161;
+  --color2: #EB3678;
+}
+/* layout */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+/* typography */
+
+/* colors */
+body{
+  background: var(--clr-ligth);
+}
